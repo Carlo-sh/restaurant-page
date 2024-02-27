@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: MatchaLatte;
+	src: url(./Matcha\ Latte\ Script.ttf);
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #dea710;
+}
+
+nav {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.tabs-btn {
+	width: clamp(100px, 120px, 150px);
+	height: 30px;
+	background-color: gold;
+	border: 1px solid #000;
+	font-weight: 600;
+}
+
+#content div {
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+	align-items: center;
+	background-color: #f5d069;
+	padding: 1rem 0;
+}
+
+div > h1 {
+	font-family: MatchaLatte, sans-serif;
+	font-size: 3rem;
+	text-align: center;
+}
+
+p {
+	width: 60%;
+	font-family: Roboto, sans-serif;
+}
+
+ul {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.contact-p {
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem 0;
+}
