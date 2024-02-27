@@ -16,20 +16,34 @@
 body {
 	min-height: 100vh;
 	background-color: #dea710;
+	font-family: Roboto, sans-serif;
 }
 
 nav {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
+	gap: 3px;
 }
 
-.tabs-btn {
-	width: clamp(100px, 120px, 150px);
-	height: 30px;
+.tab-btn {
+	width: clamp(120px, 140px, 170px);
+	height: 50px;
 	background-color: gold;
 	border: 1px solid #000;
+	font-family: MatchaLatte, sans-serif;
 	font-weight: 600;
+	font-size: 2rem;
+}
+
+.tab-h:hover {
+	cursor: pointer;
+	background-color: #fcf403;
+}
+
+.tab-active {
+	transform: scale(1.1);
+	background-color: #fcca03;
 }
 
 #content div {
@@ -42,6 +56,10 @@ nav {
 	align-items: center;
 	background-color: #f5d069;
 	padding: 1rem 0;
+	-webkit-box-shadow: 0px 0px 10px 3px #000000;
+	-moz-box-shadow: 0px 0px 10px 3px #000000;
+	-o-box-shadow: 0px 0px 10px 3px #000000;
+	box-shadow: 0px 0px 10px 3px #000000;
 }
 
 div > h1 {
@@ -52,6 +70,7 @@ div > h1 {
 
 p {
 	width: 60%;
+	max-width: 490px;
 	font-family: Roboto, sans-serif;
 }
 
