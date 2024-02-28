@@ -42,8 +42,8 @@ function component() {
 		item.innerHTML = `<span class="days">${day[0]}</span><span class="hours">${day[1]}</span>`;
 		hoursList.appendChild(item);
 	}
-
 	hoursContainer.appendChild(hoursList);
+
 	homeContainer.append(
 		restaurantName,
 		image,
