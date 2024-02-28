@@ -46,7 +46,14 @@ nav {
 	background-color: #fcca03;
 }
 
-#content div {
+.line-container {
+	display: flex;
+	gap: 10px;
+}
+
+/* ------------------------------------------------ */
+
+#content > div {
 	width: 80%;
 	margin: 0 auto;
 	border-radius: 10px;
@@ -69,14 +76,32 @@ div > h1 {
 }
 
 p {
-	width: 60%;
-	max-width: 490px;
+	max-width: 420px;
 	font-family: Roboto, sans-serif;
+	font-style: italic;
+}
+
+.line-container span {
+	font-weight: 700;
+}
+
+h2 {
+	font-family: MatchaLatte, sans-serif;
+	font-size: 2.3rem;
+	text-decoration: underline;
 }
 
 ul {
-	width: 30%;
+	width: 300px;
 	margin: 0 auto;
+}
+
+.li-item {
+	display: flex;
+	justify-content: space-between;
+	width: 180px;
+	margin: 0 auto;
+	padding: 8px 0;
 }
 
 .contact-p {
