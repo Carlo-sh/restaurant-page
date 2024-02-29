@@ -1,7 +1,7 @@
 import './style.css';
 import component from './home';
-import { dishes, generateMenu } from './menu';
-import { info, generateContact } from './contact';
+import generateMenu from './menu';
+import generateContact from './contact';
 
 const content = document.getElementById('content');
 const tabs = document.querySelectorAll('.tab-btn');

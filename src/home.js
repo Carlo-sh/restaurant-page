@@ -1,4 +1,4 @@
-import Gigi from './gigi-il-troione.jpg';
+import Gigi from './images/gigi-il-troione.jpg';
 
 const hours = [
 	['Lun:', 'Closed'],
