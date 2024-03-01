@@ -1,4 +1,5 @@
 import './style.css';
+import './favicon/favicon.ico';
 import component from './home';
 import generateMenu from './menu';
 import generateContact from './contact';
