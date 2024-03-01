@@ -29,10 +29,15 @@ function generateContact() {
 	socialContainer.classList.add('socials');
 
 	for (const icon of icons) {
+		const link = document.createElement('a');
+		link.setAttribute('href', '#');
+
 		const socialIcon = new Image();
 		socialIcon.src = icon.url;
 		socialIcon.classList.add('icons');
-		socialContainer.appendChild(socialIcon);
+
+		link.appendChild(socialIcon);
+		socialContainer.appendChild(link);
 	}
 
 	contactContainer.appendChild(socialContainer);
